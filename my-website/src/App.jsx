@@ -1,10 +1,17 @@
 import Header from "./Header/Header.jsx";
+import Window from "./Window/Window.jsx";
+import Background from "./assets/Home - Background.svg";
 
 function App() {
 
   return (
     <>
-      <Header />
+        <div className="page-container">
+            <img className = "background" src={Background}></img>
+
+          <Header />
+            <Window/>
+        </div>
     </>
   )
 }

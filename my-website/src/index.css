@@ -9,4 +9,26 @@
 body, html {
   margin: 0;
   padding: 0;
+
+}
+.page-container{
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.background {
+  background-color: #FFF4C9;
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 100vw;
+  height: auto;
+  object-fit: cover;
+  pointer-events: none;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
 }
