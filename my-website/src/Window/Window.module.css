@@ -1,8 +1,28 @@
+@keyframes float {
+    0% {
+        transform: translateX(-50%) translateY(0);
+    }
+    50% {
+        transform: translateX(-50%) translateY(-8px);
+    }
+    100% {
+        transform: translateX(-50%) translateY(0);
+    }
+}
+
+
 .container {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: float 3s ease-in-out infinite;
+    z-index: 100;
+
     margin: 90px 0 200px;
     display: flex;
     justify-content: center;
 }
+
 
 .container .window{
     background-color: #CBDFBD;
@@ -11,4 +31,33 @@
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
     width: 960px;
     height: 590px;
+}
+.window .titleBar {
+    font-size: 18px;
+    font-family: 'Reddit Mono', sans-serif;
+    color: #A44A3F;
+    border-bottom: 1px solid #A44A3F;
+    border-top-right-radius: 8px;
+    padding: 0 0 0 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFAE6;
+}
+
+.window .closeButton {
+    font-family: "Reddit Mono", sans-serif;
+    font-size: 20px;
+    padding: 4px 12px;
+    border-left: 1px solid #A44A3F;
+    border-top-right-radius: 8px;
+    height: 100%;
+    background: #A44A3F;
+    color: #FFFAE6;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
 }
