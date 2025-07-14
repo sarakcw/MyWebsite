@@ -1,8 +1,10 @@
 import styles from './Header.module.css'
+import websiteLogo from '../assets/Logo.png'
+
 function Header() {
     return (
         <div className={styles.header}>
-            <h1 className={styles.headerTitle}>SARA</h1>
+            <img className={styles.logo} alt='website logo' src={websiteLogo}></img>
             <nav className={styles.headerNav}>
                 <ul className={styles.headerNavList}>
                     <li className={styles.headerNavItem}><a href="#">Home</a></li>

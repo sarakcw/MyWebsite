@@ -4,13 +4,13 @@
     margin:0;
     background-color: #FFF4C9;
     box-shadow: 0 1px 3px rgba(0,0,0,0.23);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.header .headerTitle{
-    color: #A44A3F;
-    font-family: 'Arial', sans-serif;
-    justify-self: center;
-    margin: 10px 0;
+.header .logo{
+    margin: 0;
 }
 
 .header .headerNav{
@@ -22,11 +22,12 @@
 .header .headerNavList{
     list-style: none;
     color: #A44A3F;
-    font-family: 'Arial', sans-serif;
     display: flex;
     gap: 80px;
-    padding: 10px 5px;
+    padding: 5px 5px;
     justify-content: center;
+    font-family: "Reddit Mono", sans-serif;
+    font-size: 18px;
 }
 
 .header .headerNavItem a{
