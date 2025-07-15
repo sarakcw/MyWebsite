@@ -7,7 +7,7 @@ function Header() {
             <img className={styles.logo} alt='website logo' src={websiteLogo}></img>
             <nav className={styles.headerNav}>
                 <ul className={styles.headerNavList}>
-                    <li className={styles.headerNavItem}><a href="#">Home</a></li>
+                    <li className={styles.headerNavItem} style={{textDecoration: 'underline'}}><a href="#">Home</a></li>
                     <li className={styles.headerNavItem}><a href="#">My Projects</a></li>
                     <li className={styles.headerNavItem}><a href="#">Gallery</a></li>
                     <li className={styles.headerNavItem}><a href="#">Store</a></li>
