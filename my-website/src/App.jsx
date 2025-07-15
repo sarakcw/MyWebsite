@@ -1,5 +1,5 @@
 import Header from "./Header/Header.jsx";
-import Window from "./Window/Window.jsx";
+import WindowHome from "./Window/WindowHome.jsx";
 import Background from "./assets/Home - Background.svg";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
             <img className = "background" src={Background}></img>
 
           <Header />
-            <Window/>
+            <WindowHome/>
         </div>
     </>
   )

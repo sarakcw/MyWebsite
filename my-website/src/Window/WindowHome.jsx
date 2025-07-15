@@ -1,7 +1,7 @@
 import styles from "./Window.module.css";
 import myProjectsImg from "../assets/my-projects.jpeg";
 
-function Window() {
+function WindowHome() {
     return (
         <div className={styles.container}>
             <div className={styles.window}>
@@ -42,4 +42,4 @@ function Window() {
     );
 }
 
-export default Window;
+export default WindowHome;
