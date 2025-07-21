@@ -31,7 +31,12 @@
     font-weight: 500;
 }
 
-.header .headerNavItem a{
+.headerNavItem a{
     color: #A44A3F;
     text-decoration: none;
+}
+
+.header .headerNavItem a.activeLink {
+    text-decoration: underline;
+    font-weight: bold;
 }

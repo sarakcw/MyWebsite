@@ -1,11 +1,11 @@
 import styles from "./Window.module.css";
-import myProjectsImg from "../assets/Crafting_Table-projects.png";
-import galleryImg from "../assets/Baroque-gallery.png";
-import storeImg from "../assets/Oak_Hanging_Sign-store.png";
-import aboutImg from "../assets/Bee-about.webp";
-import contactImg from "../assets/Writable_Book-contact.png";
-import cartImg from "../assets/Chest-cart.png";
-import QuickLinks from "./QuickLinks.jsx";
+import myProjectsImg from "../src/assets/Crafting_Table-projects.png";
+import galleryImg from "../src/assets/Baroque-gallery.png";
+import storeImg from "../src/assets/Oak_Hanging_Sign-store.png";
+import aboutImg from "../src/assets/Bee-about.webp";
+import contactImg from "../src/assets/Writable_Book-contact.png";
+import cartImg from "../src/assets/Chest-cart.png";
+import QuickLinks from "../src/Components/QuickLinks.jsx";
 
 function WindowHome() {
     return (

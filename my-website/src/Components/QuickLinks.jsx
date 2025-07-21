@@ -1,4 +1,4 @@
-import styles from "./Window.module.css";
+import styles from "../../styles/Window.module.css";
 
 function QuickLinks({link = "#", image, name}){
     return(<div className={styles.quickLinksItem}>
