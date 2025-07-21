@@ -1,17 +1,21 @@
-import Header from "./Header/Header.jsx";
-import WindowHome from "./Window/WindowHome.jsx";
+import Header from "./Components/Header.jsx";
+import WindowHome from "../styles/WindowHome.jsx";
 import Background from "./assets/Home - Background.svg";
+import {Route, Routes} from "react-router-dom";
+import HomePage from "./Pages/HomePage.jsx";
+import Projects from "./Pages/Projects.jsx";
 
 function App() {
 
   return (
     <>
-        <div className="page-container">
-            <img className = "background" src={Background}></img>
+        <Routes>
+            <Route path='/' element={<HomePage/>}></Route>
+            <Route path='/projects' element={<Projects/>}></Route>
+            {/*<Route path='/gallery' element={<Gallery/>}></Route>*/}
+            {/*<Route path='/store' element={<HomePage/>}></Route>*/}
 
-          <Header />
-            <WindowHome/>
-        </div>
+        </Routes>
     </>
   )
 }
