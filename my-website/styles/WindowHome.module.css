@@ -1,0 +1,107 @@
+@keyframes float {
+    0% {
+        transform: translateX(-50%) translateY(0);
+    }
+    50% {
+        transform: translateX(-50%) translateY(-8px);
+    }
+    100% {
+        transform: translateX(-50%) translateY(0);
+    }
+}
+
+
+.container {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: float 3s ease-in-out infinite;
+    z-index: 100;
+
+    margin: 90px 0 200px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.container .window{
+    background-color: #CBDFBD;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.27);
+    width: 960px;
+    height: 590px;
+
+}
+.titleBar {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Reddit Mono', sans-serif;
+    color: #A44A3F;
+    border-bottom: 1px solid #000000;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 0 0 0 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFAE6;
+}
+
+.closeButton {
+    font-family: "Reddit Mono", sans-serif;
+    font-size: 20px;
+    padding: 4px 12px;
+    border-left: 1px solid #000000;
+    border-top-right-radius: 8px;
+    height: 100%;
+    background: #A44A3F;
+    color: #FFFAE6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
+}
+
+.window .quickLinksContainer{
+    margin-top: 60px;
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    gap: 40px 100px;
+    justify-self:  center;
+
+}
+
+.quickLinksItem{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    cursor: pointer;
+}
+
+.quickLinksItem a{
+    text-decoration: none;
+    color: #A44A3F;
+    font-family:  'Reddit Mono', sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.quickLinksItem a:hover{
+    text-decoration: underline;
+}
+
+.windowImg{
+    background: transparent;
+    /*border: 1px solid #000000;*/
+    /*border-radius: 8px;*/
+    width: 130px;
+    height: 130px;
+}
