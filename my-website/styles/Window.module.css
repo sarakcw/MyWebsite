@@ -1,24 +1,6 @@
-@keyframes float {
-    0% {
-        transform: translateX(-50%) translateY(0);
-    }
-    50% {
-        transform: translateX(-50%) translateY(-8px);
-    }
-    100% {
-        transform: translateX(-50%) translateY(0);
-    }
-}
-
-
 .container {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    animation: float 3s ease-in-out infinite;
-    z-index: 100;
 
-    margin: 90px 0 200px;
+    margin: 0;
     display: flex;
     justify-content: center;
 }
@@ -28,9 +10,11 @@
     background-color: #CBDFBD;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 8px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
-    width: 960px;
-    height: 590px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.15);
+    width: 500px;
+    height: 350px;
+    cursor: pointer;
+
 }
 .titleBar {
     font-weight: 500;
