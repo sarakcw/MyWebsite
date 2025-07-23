@@ -15,6 +15,7 @@ cd MyWebsite
 ```
 ### 2. Install dependencies
 ```bash
+cd my-website
 npm install
 ```
 
