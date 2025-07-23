@@ -1,5 +1,5 @@
 import Header from "./Components/Header.jsx";
-import WindowHome from "../styles/WindowHome.jsx";
+import WindowHome from "./Components/WindowHome.jsx";
 import Background from "./assets/Home - Background.svg";
 import {Route, Routes} from "react-router-dom";
 import HomePage from "./Pages/HomePage.jsx";
