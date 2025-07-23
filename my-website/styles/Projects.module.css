@@ -48,6 +48,15 @@ html{
 
 }
 
+.projectDescription ul {
+    padding-left: 1rem;
+    margin: 0;
+}
+
+.projectDescription li {
+    margin-left: 0;
+}
+
 /* Mobile responsive...kinda */
 @media (max-width: 1000px){
     .heading{
