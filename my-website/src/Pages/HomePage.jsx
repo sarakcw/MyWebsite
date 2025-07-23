@@ -1,7 +1,7 @@
 import React from 'react'
 import Background from "../assets/Home - Background.svg";
 import Header from "../Components/Header.jsx";
-import WindowHome from "../../styles/WindowHome.jsx";
+import WindowHome from "../Components/WindowHome.jsx";
 
 export const HomePage = () => {
     return (
