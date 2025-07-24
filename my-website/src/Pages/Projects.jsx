@@ -25,8 +25,8 @@ function Projects () {
                         It’s not done yet, but I hope that visitors can catch a glimpse of my personality and interests.
                     </p>
                     <div >
-                        <p>github link: <a href="#"></a>something.com</p>
-                        <p>figma prototype: <a href="#"></a>something.com</p>
+                        <p>Go to <a href="https://github.com/sarakcw/MyWebsite">github repo</a></p>
+                        <p>See <a href="https://www.figma.com/design/bAEXyVgp8O0g8xqvwASgWT/Sara-s-Website?node-id=0-1&t=oA8IDF4S6fBdWSAS-1 ">Figma prototype</a></p>
                     </div>
 
                 </div>
@@ -37,19 +37,19 @@ function Projects () {
                     <p>
                         This is a group project built by three developers as part of a university web systems development unit.
                         The application was created for a fictional business client and enables staff to manage products, coupons, orders, and customer data through a secure and modular CakePHP-based web system.
+                        A front facing ... has also been created for customer to purchase goods.
                         It was designed with maintainability and future scalability in mind.
                     </p>
                     <div >
-                        <p>website link: <a href="#"></a>something.com</p>
-                        <p>github link: <a href="#"></a>something.com</p>
-                        <p>figma prototype: <a href="#"></a>something.com</p>
+                        <p>Go to <a href="https://review.u25s1052.iedev.org/">website</a></p>
+                        <p>Go to <a href="https://github.com/sarakcw/E-commerce-Platform">github</a>github</p>
                     </div>
 
                 </div>
-                <Window title="My Website" />
+                <Window title="E-commerce Platform" />
             </div>
             <div className={styles.projectItem}>
-                <Window title="My Website" />
+                <Window title="Java Playable Game" />
                 <div className={styles.projectDescription}>
                     <p>
                         This project implements a playable prototype of the Santorini board game using object-oriented design principles.
@@ -73,7 +73,7 @@ function Projects () {
                         </li>
                     </ul>
                     <div>
-                        <p>github link: <a href="#"></a>something.com</p>
+                        <p>Go to <a href="https://github.com/sarakcw/OOP-Playable-Boardgame ">github</a></p>
                     </div>
 
                 </div>

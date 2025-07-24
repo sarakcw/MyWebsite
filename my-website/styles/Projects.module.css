@@ -57,6 +57,11 @@ html{
     margin-left: 0;
 }
 
+.projectDescription a {
+    color: #A44A3F;
+    text-decoration: none;
+}
+
 /* Mobile responsive...kinda */
 @media (max-width: 1000px){
     .heading{
