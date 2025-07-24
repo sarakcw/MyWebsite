@@ -18,10 +18,10 @@ function WindowHome() {
                 <div className={styles.quickLinksContainer}>
                     <QuickLinks link="/projects" image={myProjectsImg} name= "My Projects"/>
                     <QuickLinks link="/gallery" image={galleryImg} name= "Gallery"/>
-                    <QuickLinks link="/store" image={storeImg} name= "Store"/>
+                    <QuickLinks link="/#" image={storeImg} name= "xxx"/>
                     <QuickLinks link="/about-me" image={aboutImg} name= "About Me"/>
                     <QuickLinks link="/contact-me" image={contactImg} name= "Contact Me"/>
-                    <QuickLinks link="/cart" image={cartImg} name= "Your Cart"/>
+                    <QuickLinks link="/#" image={cartImg} name= "xxx"/>
                 </div>
             </div>
         </div>

@@ -26,12 +26,12 @@ function Header() {
                             Gallery
                         </NavLink>
                     </li>
-                    <li className={styles.headerNavItem}>
-                        <NavLink to="/store"
-                                 className={({ isActive }) => isActive ? styles.activeLink : undefined}>
-                            Store
-                        </NavLink>
-                    </li>
+                    {/*<li className={styles.headerNavItem}>*/}
+                    {/*    <NavLink to="/store"*/}
+                    {/*             className={({ isActive }) => isActive ? styles.activeLink : undefined}>*/}
+                    {/*        Store*/}
+                    {/*    </NavLink>*/}
+                    {/*</li>*/}
                     <li className={styles.headerNavItem}>
                         <NavLink to="/about-me"
                                  className={({ isActive }) => isActive ? styles.activeLink : undefined}>
