@@ -10,7 +10,6 @@ export const Gallery = () => {
             height: "100vh",
             textAlign: "center",
             flexDirection: "column",
-            fontFamily: '"Reddit Mono", sans-serif,',
             color: "#A44A3F"
         },
     };
@@ -18,7 +17,7 @@ export const Gallery = () => {
         <>
         <Header/>
         <div style={style.container}>
-            <h1 style={{fontSize: '50px'}}>Coming Soon!</h1>
+            <h1 style={{fontSize: '50px', fontFamily: '"Reddit Mono", monospace'}}>Coming Soon!</h1>
         </div>
         </>
 
