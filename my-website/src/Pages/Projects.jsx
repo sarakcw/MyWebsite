@@ -42,7 +42,7 @@ function Projects () {
                     </p>
                     <div >
                         <p>Go to <a href="https://review.u25s1052.iedev.org/">website</a></p>
-                        <p>Go to <a href="https://github.com/sarakcw/E-commerce-Platform">github</a>github</p>
+                        <p>Go to <a href="https://github.com/sarakcw/E-commerce-Platform">github</a></p>
                     </div>
 
                 </div>
