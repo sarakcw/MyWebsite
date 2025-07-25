@@ -59,7 +59,7 @@ html{
 
 .projectDescription a {
     color: #A44A3F;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /* Mobile responsive...kinda */
