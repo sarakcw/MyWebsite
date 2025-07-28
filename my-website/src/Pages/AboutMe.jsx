@@ -2,7 +2,7 @@ import React from 'react'
 import Header from "../Components/Header.jsx";
 import {ComingSoon} from "../Components/ComingSoon.jsx";
 
-export const Gallery = () => {
+export const AboutMe = () => {
     const style = {
         container: {
             display: "flex",
@@ -16,13 +16,11 @@ export const Gallery = () => {
     };
     return (
         <>
-        <Header/>
-        <div style={style.container}>
-            <ComingSoon/>
-        </div>
+            <Header/>
+            <div style={style.container}>
+                <ComingSoon/>
+            </div>
         </>
 
     )
 }
-
-export default Gallery;
