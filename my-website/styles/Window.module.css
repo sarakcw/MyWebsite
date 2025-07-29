@@ -1,4 +1,4 @@
-.container {
+.windowContainer {
 
     margin: 0;
     display: flex;
@@ -6,7 +6,7 @@
 }
 
 
-.container .window{
+.window{
     background-color: #CBDFBD;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 8px;
@@ -14,6 +14,10 @@
     width: 500px;
     height: 350px;
     cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
 
 }
 .titleBar {
@@ -47,43 +51,13 @@
     transition: background 0.2s ease;
 }
 
-.window .quickLinksContainer{
-    margin-top: 60px;
-    width: 80%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    gap: 40px 100px;
-    justify-self:  center;
-
+.imgWrapper{
+    flex: 1;
+    position: relative;
+    overflow: hidden;
 }
-
-.quickLinksItem{
-    display: flex;
-    flex-flow: column;
-    text-align: center;
-    cursor: pointer;
-}
-
-.quickLinksItem a{
-    text-decoration: none;
-    color: #A44A3F;
-    font-family:  'Reddit Mono', sans-serif;
-    font-weight: 500;
-    margin-top: 10px;
-}
-
-.quickLinksItem a:hover{
-    text-decoration: underline;
-}
-
 .windowImg{
-    background: transparent;
-    /*border: 1px solid #000000;*/
-    /*border-radius: 8px;*/
-    width: 130px;
-    height: 130px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
